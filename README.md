@@ -2,7 +2,7 @@
 
 I built this container so that I could mine ZEN under OSX using docker.
 
-This runs the [Nicehash CPU miner](https://github.com/nicehash/nheqminer) for ZEN/ZEC.
+This runs the [Nicehash CPU miner - Linux Branch](https://github.com/nicehash/nheqminer/tree/Linux) for ZEN/ZEC.
 
 It mines ZEN on zenmine.pro, but it appears to be inconsistent. Or zenmine.pro is slow to update.
 
