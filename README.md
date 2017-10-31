@@ -39,7 +39,10 @@ This will fire up the daemon and start CPU mining with your hardware.
 
 Don't get the black lung!
 
-ZEN - znRyycXJ5ETxKaCiAk9TXudJAfiBoSfkrss
-ETH - 0xFF280F02C21c7884B0a8dD4757c383cF02FD8c70
-XMR - 41tgTaxJqiif5wedTF7PkiQ4S1JSWrUSDP4DDHVb96Ex9iyY5wMvDCN6vrJBCfgoGoN6sqVfxGW38F92NpQP3LugH9R9hRz
-BTC - 12GwXH9oXACNNqHD5aM67ZQEYskmdiYxGy
+`ZEN - znRyycXJ5ETxKaCiAk9TXudJAfiBoSfkrss`
+
+`ETH - 0xFF280F02C21c7884B0a8dD4757c383cF02FD8c70`
+
+`XMR - 41tgTaxJqiif5wedTF7PkiQ4S1JSWrUSDP4DDHVb96Ex9iyY5wMvDCN6vrJBCfgoGoN6sqVfxGW38F92NpQP3LugH9R9hRz`
+
+`BTC - 12GwXH9oXACNNqHD5aM67ZQEYskmdiYxGy`
