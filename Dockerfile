@@ -16,5 +16,5 @@ RUN cd nheqminer/cpu_xenoncat/Linux/asm && \
 
 WORKDIR /nheqminer/Linux_cmake/nheqminer_cpu
 
-CMD ["./nheqminer_cpu", "-l", "us.zenmine.pro:9009", "-u", "znRyycXJ5ETxKaCiAk9TXudJAfiBoSfkrss.DOCKER", "-p", "x", "-t", "2"]
+CMD ["./nheqminer_cpu", "-l", "us.zenmine.pro:9009", "-u", "znRyycXJ5ETxKaCiAk9TXudJAfiBoSfkrss.DOCKER", "-p", "x", "-t", "6"]
 
