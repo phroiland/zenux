@@ -1,0 +1,8 @@
+---
+# nheqminer compose instructions
+miner:
+  container_name: miner
+  image: froiland/nheqminer
+  environment:
+    - THREADS=6
+    - ZEN_ADDR=znRyycXJ5ETxKaCiAk9TXudJAfiBoSfkrss

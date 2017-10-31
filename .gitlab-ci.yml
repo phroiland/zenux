@@ -1,0 +1,22 @@
+before_script:
+  - docker info
+  - docker login -u gitlab-ci-token -p $CI_BUILD_TOKEN registry.froiland.us
+
+build:
+  stage: build
+  script:
+    - docker build --pull -t registry.froiland.us/docker/nheqminer --build-arg VCS_REF=$CI_BUILD_REF .
+    - docker push registry.froiland.us/docker/nheqminer
+
+push_to_docker_hub:
+  stage: deploy
+  script:
+    - docker login -u $HUB_USERNAME -p $HUB_PASSWORD
+    - docker tag registry.froiland.us/docker/nheqminer:latest froiland/nheqminer:latest
+    - docker push froiland/nheqminer
+
+# ping_microbadger:
+#   stage: deploy
+#   script:
+#     - curl -XPOST https://hooks.microbadger.com/images/froiland/nheqminer
+
